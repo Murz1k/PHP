@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Чтение из элементов формы</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<style>
+td {border: 2px solid #000000}
+</style>
+
+<body style="text-align: center">
+<h1>Погода</h1>
+
+<form method = "get" action = "http://meteonovosti.ru/index.php?">
+
+<table style = "margin:0 auto; border: 2px solid #000000">
+<tr>
+<td><h3>Количество дней</h3></td>
+<td><h3>Город</h3></td>
+<td><h3>Режим отображения</h3></td>
+</tr>
+
+<tr>
+<td>
+<input type = "radio" name = "index" value = "27">на 3 дня<br>
+<input type = "radio" name = "index" value = "52">на 5 дней<br>
+<input type = "radio" name = "index" value = "51">на 14 дней<br>
+</td>
+
+<td>
+<select name = value size = 7>
+<option value = "27612">Москва</option>
+<option value = "26063">Санкт-Петербург</option>
+<option value = "26702">Калининград</option>
+<option value = "37099">Сочи</option>
+<option value = "27615">Шатура</option>
+<option value = "27417">Клин</option>
+<option value = "27522">Орехово-Зуево</option>
+</select>
+</td>
+
+<td>
+<input type = "radio" name = "hs" value = "0">Вертикально<br>
+<input type = "radio" name = "hs" value = "1">Горизонтально<br>
+</td>
+</tr>
+</table>
+
+<br><input type = "submit" value = "Показать погоду">
+</form>
+
+</body>
+</head>
+</html>

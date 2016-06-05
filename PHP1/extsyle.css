@@ -1,0 +1,18 @@
+
+<style type="text/css">
+h1{
+	text-align:center;
+	color:green;
+	border-color: red;
+	border-style: double;
+	border-size:3px
+}
+p{
+	background-color:yellow;
+	font-family: monospace
+}
+.cursive{
+	background-color:yellow;
+	font-family:cursive
+}
+</style>
